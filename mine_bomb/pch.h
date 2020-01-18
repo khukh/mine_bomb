@@ -9,6 +9,12 @@
 #ifndef PCH_H
 #define PCH_H
 
-// TODO: add headers that you want to pre-compile here
+#include <vector>
+#include <math.h>
+#include <iostream>
 
+#include "Constants.h"
+#include "vOperator.h"
+#include "matrix.h"
+#include "RGParam.h"
 #endif //PCH_H

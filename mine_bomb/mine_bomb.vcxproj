@@ -151,9 +151,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Atmosphere.h" />
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="KoefCalc.h" />
+    <ClInclude Include="matrix.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="RGParam.h" />
+    <ClInclude Include="rotation.h" />
+    <ClInclude Include="Runge.h" />
+    <ClInclude Include="status.h" />
+    <ClInclude Include="targetStatus.h" />
+    <ClInclude Include="vOperator.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Atmosphere.cpp" />
+    <ClCompile Include="KoefCalc.cpp" />
+    <ClCompile Include="matrix.cpp" />
     <ClCompile Include="mine_bomb.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -161,6 +174,12 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="RGParam.cpp" />
+    <ClCompile Include="rotation.cpp" />
+    <ClCompile Include="Runge.cpp" />
+    <ClCompile Include="status.cpp" />
+    <ClCompile Include="targetStatus.cpp" />
+    <ClCompile Include="vOperator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
